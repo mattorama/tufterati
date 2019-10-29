@@ -1,0 +1,74 @@
+]0;/home/rstudiorstudio@4eb289be4371:~$ env
+R_PDFVIEWER=/usr/bin/xdg-open
+R_RD4PDF=times,inconsolata,hyper
+LD_LIBRARY_PATH=/usr/local/lib/R/lib::/lib:/usr/local/lib:/usr/lib/x86_64-linux-gnu:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64/server
+RS_RPOSTBACK_PATH=/usr/lib/rstudio-server/bin/rpostback
+R_SHARE_DIR=/usr/local/lib/R/share
+LANG=en_US.UTF-8
+HISTCONTROL=ignoreboth
+DISPLAY=:0
+RSTUDIO_HTTP_REFERER=http://192.168.99.100:18787/
+TAR=/bin/tar
+EDITOR=vi
+R_BROWSER=xdg-open
+R_DOC_DIR=/usr/local/lib/R/doc
+R_SESSION_TMPDIR=/tmp/RtmpRMtOtV
+LN_S=ln -s
+RSTUDIO_SESSION_ID=2ccb2fff
+R_LIBS_USER=/usr/local/lib/R/site-library
+R_INCLUDE_DIR=/usr/local/lib/R/include
+USER=rstudio
+PAGER=/usr/bin/pager
+PWD=/home/rstudio
+R_LIBS=/usr/local/lib/R/site-library:/usr/local/lib/R/library:/usr/lib/R/library
+SSH_ASKPASS=rpostback-askpass
+HOME=/home/rstudio
+SED=/bin/sed
+RSTUDIO_PANDOC=/usr/lib/rstudio-server/bin/pandoc
+R_PAPERSIZE=letter
+R_SYSTEM_ABI=linux,gcc,gxx,gfortran,?
+RSTUDIO=1
+R_ZIPCMD=/usr/bin/zip
+CLICOLOR_FORCE=1
+R_HOME=/usr/local/lib/R
+R_BZIPCMD=/bin/bzip2
+RSTUDIO_USER_IDENTITY=rstudio
+RMARKDOWN_MATHJAX_PATH=/usr/lib/rstudio-server/resources/mathjax-26
+R_PRINTCMD=/usr/bin/lpr
+TERM=xterm-256color
+R_GZIPCMD=/bin/gzip
+RSTUDIO_TERM=5E62C386
+RSTUDIO_WINUTILS=bin/winutils
+SHLVL=1
+PROMPT_COMMAND=echo -ne "\033]0;${PWD/#${HOME}/~}\007"
+R_PLATFORM=x86_64-pc-linux-gnu
+RSTUDIO_SESSION_STREAM=rstudio-d
+R_LIBS_SITE=
+R_UNZIPCMD=/usr/bin/unzip
+LOGNAME=rstudio
+GIT_ASKPASS=rpostback-askpass
+RSTUDIO_PROJ_NAME=
+RSTUDIO_CONSOLE_WIDTH=135
+PATH=/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games
+RSTUDIO_CONSOLE_COLOR=256
+R_TEXI2DVICMD=/usr/bin/texi2dvi
+MAKE=make
+_=/usr/bin/env
+]0;/home/rstudiorstudio@774d55c6a0d1:~$ ls
+db_conn.R  kitematic  test
+]0;/home/rstudiorstudio@774d55c6a0d1:~$ cd /data
+]0;/datarstudio@774d55c6a0d1:/data$ ls
+meh  meh2
+]0;/datarstudio@774d55c6a0d1:/data$ ls -al
+total 8
+drwxr-xr-x 2 rstudio rstudio 4096 Oct 26 00:07 .
+drwxr-xr-x 1 root    root    4096 Oct 26 00:07 ..
+-rw-r--r-- 1 rstudio users      0 Oct 26 00:07 meh
+-rw-r--r-- 1 root    root       0 Oct 26 00:07 meh2
+]0;/datarstudio@774d55c6a0d1:/data$ touch meh3
+]0;/datarstudio@774d55c6a0d1:/data$ ls
+meh  meh2  meh3
+]0;/datarstudio@774d55c6a0d1:/data$ cat meh3
+]0;/datarstudio@774d55c6a0d1:/data$ cat beh
+beep
+]0;/datarstudio@774d55c6a0d1:/data$ 
