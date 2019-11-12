@@ -3,11 +3,19 @@
 # makefile for project commands
 #
 
+app_root := ${PWD}
 proj := ${PROJECT}
 db_host_port := ${DB_POSTGRES_HOST_PORT}
 local := ${DOCKER_IP}
+jupy_port := ${JUPYTER_PORT}
 
 SHELL := /usr/bin/env bash
+
+env:
+	@conda env create -f ${app_root}/py/environment.yml
+
+lab:
+	@jupyter lab --notebook-dir=${app_root}/py/lab --port=${jupy_port}
 
 build:
 	@docker-compose build

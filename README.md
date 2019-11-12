@@ -30,3 +30,17 @@ make up
 ```
 make psql
 ```
+
+* run local ipython
+
+```
+conda activate tufterati
+ipython
+```
+
+* run local jupyter lab
+
+```
+make lab
+```
+
