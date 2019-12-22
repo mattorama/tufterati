@@ -1,0 +1,22 @@
+{
+    "folders":
+    [
+        {
+            "path": "."
+        }
+    ],
+    "settings":
+    {
+        "SublimeLinter":
+        {
+            "linters":
+            {
+                "pylint":
+                {
+                    "python": "~/anaconda3/envs/tufterati/bin/python"
+                }
+            }
+        }
+    }
+}
+

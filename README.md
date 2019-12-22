@@ -12,10 +12,10 @@ Docker. VSCode for Python remote debugging.
 
 ## Getting started
 
-* export the environment variables
+* export the environment variables for Docker
 
 ```
-source export_env.sh
+source sh/export_env.sh .env
 ```
 
 * build the containers and launch the services
@@ -23,6 +23,18 @@ source export_env.sh
 ```
 make build
 make up
+```
+
+* do the one-time build for plotly in Jupyter Lab
+
+```
+bash sh/setup_jupyter_plotly.sh
+```
+
+* export the environment variables for Python
+
+```
+source sh/export_env.sh py/.env
 ```
 
 * run any of the commands in the `Makefile`, e.g.,
