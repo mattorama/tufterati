@@ -6,3 +6,5 @@ touch meh3
 ls
 cat meh3
 cat beh
+which R
+R --version

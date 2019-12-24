@@ -25,10 +25,10 @@ make build
 make up
 ```
 
-* do the one-time build for plotly in Jupyter Lab
+* run any of the docker commands in the `Makefile`, e.g.,
 
 ```
-bash sh/setup_jupyter_plotly.sh
+make psql
 ```
 
 * export the environment variables for Python
@@ -37,10 +37,16 @@ bash sh/setup_jupyter_plotly.sh
 source sh/export_env.sh py/.env
 ```
 
-* run any of the commands in the `Makefile`, e.g.,
+* create the conda environment for local python
 
 ```
-make psql
+make env
+```
+
+* do the one-time build for plotly in Jupyter Lab
+
+```
+bash sh/setup_jupyter_plotly.sh
 ```
 
 * run local ipython

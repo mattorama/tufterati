@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-python app/app.py
+python app/py_app.py

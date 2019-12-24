@@ -2,4 +2,11 @@ data/*.csv
 .idea/
 **/__pycache__/*
 **/.ipynb_checkpoints/*
-
+**/logs/*
+**/airflow-webserver.pid
+**/airflow.cfg
+**/unittests.cfg
+rs/r/.RData
+rs/r/.RHistory
+rs/r/.bash_history
+rs/r/.rstudio/*

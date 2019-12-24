@@ -24,14 +24,6 @@ services:
         source: db
         target: /var/lib/postgresql/data
   py:
-    build:
-      args:
-        base_tag: "7a0c7325e470"
-        airflow_home: ${PY_AIRFLOW_HOME}
-        dags_home: ${PY_DAGS_PATH}
-        data_volume: ${PY_DATA_PATH}
-        jupyter_home: ${PY_NOTEBOOK_DIR}
-      context: ./py/
     command:
       - bash
       - -ic
@@ -53,7 +45,7 @@ services:
       - DB_NAME=${PROJECT}
       - DB_USER=${PROJECT}
       - DB_PASS=${PROJECT}
-    image: ${PROJECT}_py:latest
+    image: ${PROJECT}_built_py:latest
     ports:
       -
         published: ${PY_DEBUG_PORT}

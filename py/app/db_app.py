@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 """
-demonstrate call to application
+demonstrate call to database
 """
 
 import os
