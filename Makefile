@@ -67,3 +67,10 @@ putdata:
 
 getdata:
 	@docker cp ${proj}_rs:/data/. data/
+
+%.sql3: %.csv
+	rm -f $@
+	sqlite3 $@ -echo -cmd ".mode csv" ".import $< $*"
+
+%.dump: %.sql3
+	sqlite3 $< "select * from $*"

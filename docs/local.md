@@ -27,11 +27,7 @@ ctrl+z
 ipython 
 ```
 
-* PYTHONPATH should include `py` directory
+* PYTHONPATH should include `py` directory for Docker equivalency
+* other PATHS should be set as variables or accessible from $PROJECT
 
-* have a separate compose file for built jupyter lab build saved state
-  * no args in this one
 
-# TODO:
-
-* build .Renviron from environment variables in docker
