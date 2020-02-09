@@ -52,7 +52,7 @@ bash sh/setup_jupyter_plotly.sh
 * run local ipython
 
 ```
-conda activate tufterati
+conda activate ${PROJECT}
 ipython
 ```
 
@@ -60,5 +60,18 @@ ipython
 
 ```
 make lab
+```
+
+
+## Running tests
+
+```
+pytest py/tests
+```
+
+## Linting
+
+```
+pylint py/**/*.py
 ```
 

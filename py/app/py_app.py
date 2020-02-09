@@ -6,11 +6,12 @@
 def fun():
     """ check import of function """
     print("fun imported")
+    return 23
 
 
 def main():
     """ run from shell """
-    fun()
+    _ = fun()
 
 
 if __name__ == '__main__':
